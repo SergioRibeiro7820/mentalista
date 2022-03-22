@@ -1,0 +1,66 @@
+body {
+  font-family: "Helvetica";
+  min-height: 650px;
+  background-image: url("https://images.pexels.com/photos/7486693/pexels-photo-7486693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  font-family: "Helvetica";
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  font-family: "Helvetica";
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  font-family: "Helvetica";
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  font-family: "Helvetica";
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  font-family: "Helvetica";
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
